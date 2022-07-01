@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <ctype.h>
+
+/**
+ * Print the alphabets from a to z
+ */
+int main()
+{
+  char c = 'a';
+  char list = {'e', 'q'};
+  
+  for (c != list; c <= 'z'; c++)
+    {      
+      putchar(c);
+    }
+  putchar('\n');
+
+  return (0);
+}
