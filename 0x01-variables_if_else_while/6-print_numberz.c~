@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * The printing of 10 digit numbers
+ * Should print with putchar only to get -SUCCESS
+ */
+int main(void)
+{
+  int num = 0;
+  while (num < 10)
+    {
+      putchar('%d',num);
+      num++;
+    }
+  putchar('\n');
+
+  return (0);
+}
