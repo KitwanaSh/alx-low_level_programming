@@ -7,7 +7,7 @@
 *
 * Then assign a condition to it!
 */
-int main(void) 
+int main(void) /* The most important part of the program */ 
 {
   int n;
   
