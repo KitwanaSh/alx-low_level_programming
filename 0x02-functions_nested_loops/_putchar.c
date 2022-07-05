@@ -2,6 +2,7 @@
 
 /**
  * _putchar - writes the character c to stdout
+ * print_aphabet - write all the alphabet (a - z)
  * @c: The character to print
  *
  * Return: On success 1.
