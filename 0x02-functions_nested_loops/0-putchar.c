@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @: Set the file
+ * main -: standard point to print the _putchar
  *
  * Return: Always 1 as Success
  */
