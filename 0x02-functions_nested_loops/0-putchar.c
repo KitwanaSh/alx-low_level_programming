@@ -1,13 +1,13 @@
-#include "main.h"
+#inlude "main.h"
 
 /**
- * main -: Inset the putchart chrs
+ * @: Set the file
  *
- * Return: Always 0 as success
+ * Return: Always 1 as Success
  */
 int main(void)
 {
-	_putchar('_'); 
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -19,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
