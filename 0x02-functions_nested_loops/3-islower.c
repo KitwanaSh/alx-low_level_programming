@@ -4,11 +4,14 @@
  * _islower - int for here
  *
  * @c : character that checks for lower
- * @result : found the element of c
+ *
  * Return : Always return @result
  */
 int _islower(int c) /* The character should run here*/
 {
+	/**
+	 * @result: led to the func of c
+	 */
 	int result;
 
 	if (c >= 97 && c <= 122)
