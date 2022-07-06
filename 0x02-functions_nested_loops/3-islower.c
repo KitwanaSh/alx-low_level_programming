@@ -4,20 +4,21 @@
 /**
  * _islower - get the lower case value
  *
- * Return : 1 if it is lower and 0 is diff
+ * @c - character that checks for lower
+ *
+ * Return : result is returned in two ways
  */
 int _islower(int c)
 {
-    int result;
+	int result;
 
-    if (c >= 97 && c <= 122)
-    {
-	    result = 1;
-    }
-    else
-    {
-	    result = 0;
-    }
-
-    return result;
+	if (c >= 97 && c <= 122)
+	{
+		result = 1;
+	}
+	else
+	{
+		result = 0;
+	}
+	return (result);
 }
