@@ -2,8 +2,8 @@
 
 /**
  *_islower - int for here
- *
  *@c : character that checks for lower
+ *Descritption: does this explain what i mean here
  *
  *Return : Always return @result
  */
