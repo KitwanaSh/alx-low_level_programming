@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - int for here
+ *_islower - int for here
  *
- * @c : character that checks for lower
+ *@c : character that checks for lower
  *
- * Return : Always return @result
+ *Return : Always return @result
  */
 int _islower(int c) /* The character should run here*/
 {
