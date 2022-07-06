@@ -2,12 +2,13 @@
 #include <ctype.h>
 
 /**
- * _islower (@c) - get the lower case value
+ * int _islower - is to get the lower case value
  *
- * @c - character that checks for lower
- * Description: the desccription goes here
+ * @c : character that checks for lower
+ * @result : return the res of letters 
  *
  * Return : result is returned in two ways
+ * Description : describe the longer code
  */
 int _islower(int c)
 {
