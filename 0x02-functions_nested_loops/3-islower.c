@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /**
- * _islower - get the lower case value
+ * _islower (@c) - get the lower case value
  *
  * @c - character that checks for lower
+ * Description: the desccription goes here
  *
  * Return : result is returned in two ways
  */
