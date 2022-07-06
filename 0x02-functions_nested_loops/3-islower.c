@@ -4,7 +4,7 @@
  * _islower - int for here
  *
  * @c : character that checks for lower
- *
+ * @result : found the element of c
  * Return : Always return @result
  */
 int _islower(int c) /* The character should run here*/
