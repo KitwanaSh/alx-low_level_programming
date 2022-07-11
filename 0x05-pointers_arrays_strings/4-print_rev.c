@@ -1,24 +1,21 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * print_rev - print in reverse order
  * @s: the pointer in string
- * 
+ *
  * Return: nothing
  */
 void print_rev(char *s)
 {
-  char *ptr = s;
+	int len, i;
 
-  s = ptr;
-  
-  while (*(ptr + 1) != '\0')
-    ptr++;
-
-  while (ptr > s)
-    {
-      char tmp = *ptr++;
-      *ptr-- = *s;
-      *s++ = tmp;
-    }
+	len = strlen(s);
+	for (i = len; i >= 0; i--)
+	{
+		printf("%c", *(s + i));
+	}
+	printf("\n");
 }
