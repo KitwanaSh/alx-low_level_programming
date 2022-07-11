@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * print_rev - print in reverse order
+ * @s: the pointer in string
+ * 
+ * Return: nothing
+ */
+void print_rev(char *s)
+{
+  char *ptr = s;
+
+  while (*(ptr + 1) != '\0')
+    ptr++;
+
+  while (ptr > s)
+    {
+      char tmp = *ptr++;
+      *ptr-- = *s;
+      *s++ = tmp;
+    }
+}
