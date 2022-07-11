@@ -8,13 +8,9 @@
  */
 void _puts(char *str)
 {
-	char ptr[44] = "";
-	int i;
-
-	str = ptr;
-
-	for (i = 0; str[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		printf("&ptr[%d] = %p\n",i,str+i);
+		printf("%c", *str++);
 	}
+	printf("\n");
 }
