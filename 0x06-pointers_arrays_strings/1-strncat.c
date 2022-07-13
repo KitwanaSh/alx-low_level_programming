@@ -8,7 +8,8 @@
  * @n: nth byte of the string
  *
  * Return:the concatenation of dest and src including the nth by if it exist
- */char *_strncat(char *dest, char *src, int n)
+ */
+char *_strncat(char *dest, char *src, int n)
 {
 	size_t dest_len = strlen(dest);
 	int i;
