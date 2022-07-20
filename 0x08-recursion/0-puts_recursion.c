@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _puts_recursion - print a strings
@@ -9,12 +8,13 @@
  */
 void _puts_recursion(char *s)
 {
-	if ((*s >= 'a' && *s <= 'z')
-	|| (*s >= 'A' && *s <= 'Z')
-	|| (*s == ' '))
+	if (*s == '\0')
+	{
+		_putchar('\n');
+	}
+	else
 	{
 		_putchar(*s);
 		_puts_recursion(s + 1);
-		_putchar('\n');
 	}
 }
