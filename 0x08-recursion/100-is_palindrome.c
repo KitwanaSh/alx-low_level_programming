@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recur(cha *s)
+ * _strlen_recur - get the length of a string
  * @s: pointer of type string
  *
  * Return: the length if a string
@@ -28,7 +28,7 @@ int comparable(char *s, int i1, int i2)
 	{
 		if (i1 == i2 || i1 == i2 + 1)
 			return (1);
-		return (0 + comparable(s, i1 + 1, i2 -1));
+		return (0 + comparable(s, i1 + 1, i2 - 1));
 	}
 	return (0);
 }
