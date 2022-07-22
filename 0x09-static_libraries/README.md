@@ -1,0 +1,3 @@
+## Static Library In C
+This is a practical project consisting on creating, listing, linking and understanding the use of static libraries.
+Story to be continued ...
