@@ -11,10 +11,7 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int len = strlen(str) + 1;
-	char *result = (char *) malloc(len);
-
-	if (result == (char *) 0)
-		return (char *) 0;
-	return ((char *) memcpy(result, str, len));
+	if (str == NULL)
+		str = NULL;
+	return (strdup(str));
 }
