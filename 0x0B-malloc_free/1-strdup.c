@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	unsigned int len = strlen(str) + 1;
 	char *result = (char *) malloc(len);
 
-	if (result == NULL)
-		return (NULL);
+	if (result == (char *) 0)
+		return (char *) 0;
 	return ((char *) memcpy(result, str, len));
 }
