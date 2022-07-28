@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * malloc_checked - checks the pointer that malloc returns
@@ -10,14 +9,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *ptr;
+	void *a = malloc(b);
 
-	ptr = (void *)malloc(sizeof(ptr) * b);
-
-	if (ptr == NULL)
+	if (a == NULL)
 	{
-		printf("98");
+		exit(98);
 	}
-	return (ptr + b);
-	free(ptr);
+	return (a);
 }
