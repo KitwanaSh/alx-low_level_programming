@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 	int n = argc;
 	int mul, *num1, *num2;
 
-	num1 = malloc(sizeof(int) * 10);
-	num2 = malloc(sizeof(int) * 10);
+	num1 = malloc(sizeof(*num1) * 10);
+	num2 = malloc(sizeof(*num2) * 10);
 
 	if (n != 3)
 	{
