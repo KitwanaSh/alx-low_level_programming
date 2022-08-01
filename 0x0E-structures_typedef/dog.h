@@ -1,8 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * struc dog - the defined structure
+ * struct dog - the defined structure
  * @name: variable char in pointer
  * @age: float variable
  * @owner: pointer variable of type char
@@ -14,3 +14,5 @@ struct dog
 	char *owner;
 };
 /* struct dog my_dog(char *name, float age, char *owner) */
+
+#endif
