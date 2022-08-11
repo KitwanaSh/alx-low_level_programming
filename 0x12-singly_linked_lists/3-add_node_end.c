@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beggining
+ * add_node_end - adds a new node at the beggining
  * of each node
  * @head: double pointer of list_t representing
  * the first elementin list
