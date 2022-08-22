@@ -6,7 +6,7 @@
  * and prints if to the POSIS standard output
  * @filename: pointer to the filename char
  * @letters: the number of ltters if should read
- * 
+ *
  * Return: The actual number of letters it could read and print
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -14,7 +14,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t op, rd, wr;
 	char *buf;
 
-	buf = malloc(sizeof(char) *letters);
+	buf = malloc(sizeof(char) * letters);
 
 	if (filename == NULL)
 		return (0);
