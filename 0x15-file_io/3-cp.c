@@ -65,8 +65,7 @@ int main(int argc, char *argv[])
 	buffer = create_buffer(argv[2]);
 	rd = read(file_from, buffer, 1024);
 
-	if (rd > 0)
-	{
+	do {
 		if (file_from == -1 || rd == -1)
 		{
 			dprintf(STDERR_FILENO,
@@ -87,7 +86,7 @@ int main(int argc, char *argv[])
 
 		file_from = open(argv[2], O_WRONLY, O_APPEND);
 		rd = read(file_from, buffer, 1024);
-	}
+	} while (rd > 0);
 
 	free(buffer);
 	close_buf(file_from);
