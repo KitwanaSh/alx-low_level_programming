@@ -5,5 +5,5 @@ NAME = school
 
 all: $(OBJ)
 	@echo "Start compilation..."
-	@$(CC) $(OBJ) -o NAME
+	@$(CC) $(OBJ) -o $(NAME)
 	@echo "Terminated."
