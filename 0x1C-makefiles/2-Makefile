@@ -1,0 +1,9 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+
+all: $(OBJ)
+	@echo "Start compilation..."
+	@$(CC) $(OBJ) -o NAME
+	@echo "Terminated."
